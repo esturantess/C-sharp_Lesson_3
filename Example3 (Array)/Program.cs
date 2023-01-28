@@ -56,4 +56,4 @@ SelectionSort(arr);
 // PrintArray(arr);
 // SelectionSort(arr);
 
-// PrintArray(arr);
+PrintArray(arr);
