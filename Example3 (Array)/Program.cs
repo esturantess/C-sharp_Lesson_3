@@ -32,4 +32,28 @@ void SelectionSort(int[] array)
 PrintArray(arr);
 SelectionSort(arr);
 
-PrintArray(arr);
+
+// От большего числа к меньшему
+
+// PrintArray(arr);
+
+// void SelectionSort(int[] array)
+// {
+//     for (int i = array.Length - 1; i >= 0; i--)
+//     {
+//         int minPosition = i;
+//         for (int j = i - 1; j >= 0; j--)
+//         {
+//             if (array[j] < array[minPosition]) minPosition = j;
+//         }
+//         int temporary = array[i];
+//         array[i] = array[minPosition];
+//         array[minPosition] = temporary;
+//     }
+// }
+
+
+// PrintArray(arr);
+// SelectionSort(arr);
+
+// PrintArray(arr);
