@@ -53,17 +53,27 @@ int Method3()// если метод что-то возвращает, обяза
 // Вид 4
 // Что-то принимают и что-то возвращают
 
-string Method4(int count, string text)
-{
-    int i = 0;
-    string result = String.Empty;
-    while (i < count)
-    {
-        result = result + text;
-        i++;
-    }
-    return result;
-}
+// string Method4(int count, string text)
+// {
+//     int i = 0;
+//     string result = String.Empty;
+//     while (i < count)
+//     {
+//         result = result + text;
+//         i++;
+//     }
+//     return result;
+// }
 
 // string res = Method4(10, "o");
 // System.Console.WriteLine(res);
+
+string Method4(int count, string text)
+{
+    string result = String.Empty;
+    for (int i = 0; i < count; i++) // цикл for: инициализация счетчика -> проверка условия -> инкремент
+    {
+        result = result + text;
+    }
+    return result;
+}
